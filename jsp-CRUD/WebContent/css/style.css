@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+pre.cmd {
+	background-color: black;
+	color: lime;
+	font-family: Consolas;
+	font-size: 20px;
+	padding: 5px;
+	width: 900px;
+	margin: 10px auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table#boardList {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 800px;
+	margin: auto;
+}
+
+table#boardList>thead>tr {
+	background-color: darkgrey;
+}
+
+table#boardList td, table#boardList th {
+	padding: 5px 10px;
+	border: 1px solid grey;
+}
+
+table#boardList th:nth-child(2) {
+	width: 300px;
+}
+
+div.flex {
+	width: 800px;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.frame {
+	width: 800px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.frame>pre {
+	background-color: #eee;
+	font-size: 16px;
+	padding: 10px;
+}
